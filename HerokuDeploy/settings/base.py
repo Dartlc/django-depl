@@ -1,5 +1,7 @@
-SECRET_KEY = 'j*e6+dbhlkd(f^zkyj(4qmfw@4y1ixe6mb#cx&x5f-+ympne)4'
+import os
 
+SECRET_KEY = 'j*e6+dbhlkd(f^zkyj(4qmfw@4y1ixe6mb#cx&x5f-+ympne)4'
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
